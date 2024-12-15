@@ -50,6 +50,7 @@ template.innerHTML = `
 
 document.body.appendChild(template.content)
 
+//Check user login to display profile icon
 window.addEventListener('load', () => {
     const userProfile = document.getElementById('userCheck');
     if(localStorage.getItem('userAuthentication') === 'true') {
@@ -58,11 +59,14 @@ window.addEventListener('load', () => {
     }
 });
 
+
+//Clear userAuthentication when logout
 document.getElementById('u-logout').addEventListener('click', () => {
     localStorage.removeItem('userAuthentication');
     window.location.href = "index.html"
 })
 
+//Dropdown show/hide
 document.getElementById('u-dropdown-btn').addEventListener('click', () => {
     const dropdownContent = document.getElementById('dropdown-content');
     if (dropdownContent.style.display === 'block') {
