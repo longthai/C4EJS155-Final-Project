@@ -106,6 +106,16 @@ body {
 }
 
 /* Responsive Styles */
+@media (max-width: 1024px) {
+    .banner-image-left {
+        text-align: center;
+    }
+
+    .banner-image-left > p {
+        font-size: 24px;
+    }
+}
+
 @media (max-width: 768px) {
     .banner {
         flex-wrap: wrap;

@@ -64,8 +64,11 @@ body {
 }
 
 .right-img {
+    padding: 0 50px;
     background-color: #F5F5F5;
-    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     > img {
         display: block;
         margin-left: auto;
@@ -168,8 +171,7 @@ body {
 }
 
 .heart-btn {
-    height: 40px;
-    width: 40px;
+    padding: 10px;
     border-radius: 4px;
     border: 1px solid rgba(0, 0, 0, 0.5);
     display: flex;
