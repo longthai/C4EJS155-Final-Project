@@ -15,6 +15,14 @@ body {
     font-size: 90%;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover, a:visited {
+    color: inherit;
+}
+
 .line {
     width: 90%;
     margin: auto;

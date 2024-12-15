@@ -1,4 +1,11 @@
 /* Header Style */
+a {
+    text-decoration: none;
+}
+
+a:hover, a:visited {
+    color: inherit;
+}
 
 .topnav {
     display: flex;

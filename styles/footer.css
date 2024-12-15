@@ -3,7 +3,7 @@ a {
     text-decoration: none;
 }
 
-a:visited {
+a:hover, a:visited {
     color: inherit;
 }
 
