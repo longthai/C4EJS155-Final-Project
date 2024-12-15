@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/signup.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body>
+    <!-- This is the header -->
+    <script src="./components/header.js"></script>
+
+    <div class="main">
+      <div class="banner-left"></div>
+
+      <div class="banner-right" id="banner-right">
+        <form action="" id="login-form">
+            <div class="login-header">
+                <h1>Login to Exclusive</h1>
+                <p>Enter your details below</p>
+            </div>
+    
+            <div class="login-container">
+                <input type="email" placeholder="Email" id="lg-email" required>
+                <input type="password" placeholder="Password" id="lg-pwd" required>
+                
+                <div class="login-btn">
+                    <button type="submit" class="btn-login-submit" id="btn-login-submit">Log In</button>
+                    <a href="#">Forget Password?</a>
+                </div>
+            </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- This is the footer -->  
+    <script src="./components/footer.js"></script>
+</body>
+
+<script defer src="./components/login.js"></script>
+
+</html>

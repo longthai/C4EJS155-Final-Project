@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/productpage.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link>
+</head>
+<body>
+    <!-- This is the header -->
+    <script src="./components/header.js"></script> 
+
+    <div class="product-page"> 
+        <div>Account / Gaming / HAVIT HV-G92 Gamepad</div>
+
+        <div class="product-info">
+            <div class="left-img">
+                <div class="img-display"><img src="./images/productpage/item1.png" alt=""></div>
+                <div class="img-display"><img src="./images/productpage/item2.png" alt=""></div>
+            </div>
+
+            <div class="right-img" id="image-right">
+                <img src="./images/productpage/item1.png" alt="">
+            </div>
+
+            <div class="product-detail">
+                <div class="p-name">HAVIT HV-G92 Gamepad</div>
+
+                <div>
+                    <span class="item-star"><i class="fa-solid fa-star"></i></span>
+                    <span class="item-star"><i class="fa-solid fa-star"></i></span>
+                    <span class="item-star"><i class="fa-solid fa-star"></i></span>
+                    <span class="item-star"><i class="fa-solid fa-star"></i></span>
+                    <span class="item-star"><i class="fa-solid fa-star"></i></span>
+                    <span class="item-vote">(88) | </span>
+                    <span class="item-stock"> In Stock</span>
+                </div>
+
+                <div>
+                    <span class="item-price">$120</span>
+                    <span class="item-org-price">$160</span>
+                </div>
+
+                <div>
+                    <p>
+                        PlayStation 5 Controller Skin High quality vinyl with air channel adhesive for easy bubble free install & mess free removal Pressure sensitive.
+                    </p>
+                </div>
+
+                <div class="p-size">
+                    <p>Size:</p>
+                    <div id="size-choice">OneSize</div>
+                </div>
+
+                <div class="p-buy">
+                    <div class="product-quantity">
+                        <button class="plus-btn" type="button" id="plus-btn">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                        <input type="text" name="name" value="1"id="item-count">
+                        <button class="minus-btn" type="button" id="minus-btn">
+                            <i class="fa-solid fa-minus"></i>
+                        </button>
+                    </div>
+
+                    <div class="buy-btn" id="buy-btn">
+                        <button>Buy Now</button>
+                    </div>
+
+                    <div class="heart-btn">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+
+                <div class="p-delivery">
+                    <div>
+                        <span><i class="fa-solid fa-truck"></i></span>
+                        <span>
+                            <p>Free Delivery</p>
+                            <p><a href="#">Enter your postal code for Delivery Availability</a></p>
+                        </span>
+                    </div>
+
+                    <div>
+                        <span><i class="fa-solid fa-rotate-left"></i></span>
+                        <span>
+                            <p>Free Delivery</p>
+                            <p>Free 30 Days Delivery Returns. <a href="#">Details</a></p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="relate-item">
+            <div class="related-item-header">
+                <img src="./images/homepage/rectangle.png" alt="">
+                <p>Related Item</p>
+            </div>
+      
+            
+            <div id="todays-carousel"></div>
+          </div>
+    </div>
+
+    <!-- This is the footer -->
+    <script src="./components/footer.js"></script>
+</body>
+
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script src="./components/productpage.js"></script>
+<script src="./components/homepage/todayCarousel.js"></script>
+</html>

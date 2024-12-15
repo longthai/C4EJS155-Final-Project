@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link>
+</head>
+
+<body>
+  <!-- This is the header -->
+   
+  <script src="./components/header.js"></script>  
+  
+  <!-- This is the main content -->
+  <div class="main">
+    <!-- This is the banner section -->
+    <div class="banner">
+      <div class="banner-menu">
+        <ul>
+          <li><a href="#">Woman's Fashion<span> | </span></a></li>
+          <li><a href="#">Men's Fashion<span> | </span></a></li>
+          <li><a href="#">Electronics<span> | </span></a></li>
+          <li><a href="#">Home & Lifestyle<span> | </span></a></li>
+          <li><a href="#">Medicine<span> | </span></a></li>
+          <li><a href="#">Sports & Outdoor<span> | </span></a></li>
+          <li><a href="#">Baby's & Toys<span> | </span></a></li>
+          <li><a href="#">Groceries & Pets<span> | </span></a></li>
+          <li><a href="#">Health & Beauty</a></li>
+        </ul>
+      </div>
+
+      <div class="banner-right">
+        <div class="banner-image">
+          <div class="banner-image-left">
+            <div class="banner-image-left-apple">
+              <img src="./images/homepage/apple.png">
+              <p>iPhone 14 Series</p>  
+            </div>
+            <p>Up to 10% off Voucher</p>
+            <div><a href="#">Shop Now </a><i class="fa-solid fa-arrow-right"></i></div>
+          </div>
+          <div class="banner-image-right">
+            <img src="images/homepage/iphone.png">
+          </div>
+        </div>
+        <img src="./images/homepage/banner-dot.png" alt="">
+      </div>
+    </div>
+
+    <!-- This is the today's section -->
+    <div class="todays">
+      <div style="margin-left: 5%;">
+        <div class="todays-header">
+          <img src="./images/homepage/rectangle.png" alt="">
+          <p>Today's</p>
+        </div>
+
+        <div class="todays-top">
+          <p>Flash Sales</p>
+          <div class="todays-countdown">
+            <div class="">Days</div>
+            <div class="">Hours</div>
+            <div class="">Minutes</div>  
+            <div class="">Seconds</div>
+            <div class="time" id="todays"></div>
+            <div class="time" id="tohours"></div>
+            <div class="time" id="tominutes"></div>
+            <div class="time" id="toseconds"></div>
+          </div>
+        </div>
+      </div>
+      <div id="todays-carousel"></div>
+      <button class="btn-todays-viewall">View All Product</button>
+    </div>
+    
+    <div class="line"></div>
+
+    <!-- This is the categories section -->
+    <div class="categories" style="margin-left: 5%; margin-right: 5%;">
+      <div>
+        <div class="categories-header">
+          <img src="./images/homepage/rectangle.png" alt="">
+          <p>Categories</p>
+        </div>
+        <div class="categories-top">
+          <p>Browse By Category</p>
+          <div class="categories-arrow">
+            <span><i class="fa-solid fa-arrow-left"></i></span>
+            <span><i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </div>
+      <div id="categories-menu"></div>
+    </div>
+      
+    <div class="line"></div>
+
+    <!-- This is the bestselling section -->
+    <div class="bestselling">
+      <div style="margin-left: 5%; margin-right: 5%;">
+        <div class="bestselling-header">
+          <img src="./images/homepage/rectangle.png" alt="">
+          <p>This Month</p>
+        </div>
+        <div class="bestselling-top">
+          <p>Best Selling Products</p>
+          <button class="btn-bestselling-viewall">View All</button>
+        </div>
+      </div>
+      <div id="bestselling-carousel"></div>
+    </div>
+
+    <!-- This is the categories banner section -->
+    <div class="categories-banner" style="margin-left: 5%; margin-right: 5%;">
+      <div class="categories-banner-left">
+        <span style="color: #00FF66;">Categories</span>
+        <span class='enhance-music'>Enhance Your Music Experience</span>
+        <ul class="categories-countdown">
+          <li id="catdays"></li>
+          <li id="cathours"></li>
+          <li id="catminutes"></li>
+          <li id="catseconds"></li>
+        </ul>
+        <button>Buy Now!</button>
+      </div>
+
+      <div class="categories-banner-right">
+        <img src="./images/homepage/item9.png" alt="">
+      </div>
+    </div>
+
+    <!-- This is the products list section -->
+    <div class="product-list" style="margin-left: 5%; margin-right: 5%;">
+      <div>
+        <div class="product-list-header">
+          <img src="./images/homepage/rectangle.png" alt="">
+          <p>Our Products</p>
+        </div>
+        <div class="product-list-top">
+          <p>Explore Our Products</p>
+          <div class="product-list-arrow">
+            <span><i class="fa-solid fa-arrow-left"></i></span>
+            <span><i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </div>
+      <div id="product-list"></div>
+      <button class="btn-todays-viewall">View All Product</button>
+    </div>
+      
+    <div class="line"></div>
+
+    <!-- This is the featured section -->
+    <div class="featured" style="margin-left: 5%; margin-right: 5%;">
+      <div>
+        <div class="featured-header">
+          <img src="./images/homepage/rectangle.png" alt="">
+          <p>Featured</p>
+        </div>
+        <div class="featured-top">
+          <p>New Arrival</p>
+        </div>
+      </div>
+
+      <div id="featured-container"></div>
+    </div>
+
+    <!-- This is the bottom section -->
+    <div class="bottom">
+      <div class="bottom-item">
+        <i class="fa-solid fa-truck-fast"></i>
+        <div>FREE AND FAST DELIVERY</div>
+        <p>Free delivery for all orders over $140</p>
+      </div>
+
+      <div class="bottom-item">
+        <i class="fa-solid fa-headset"></i>
+        <div>24/7 CUSTOMER SERVICE</div>
+        <p>Friendly 24/7 customer support</p>
+      </div>
+
+      <div class="bottom-item">
+        <i class="fa-solid fa-truck-fast"></i>
+        <div>MONEY BACK GUARANTEE</div>
+        <p>We return money within 30 days</p>
+      </div>
+    </div>
+
+    <button onclick="topFunction()" id="btn-gotop"><i class="fa-solid fa-arrow-up"></i></button>
+  </div>
+
+  
+  <!-- This is the footer -->
+  <script src="./components/footer.js"></script>
+</body>
+
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script src="./index.js"></script>
+<script src="./components/homepage/todayCarousel.js"></script>
+<script src="./components/homepage/categories.js"></script>
+<script src="./components/homepage/bestSelling.js"></script>
+<script src="./components/homepage/productList.js"></script>
+<script src="./components/homepage/featured.js"></script>
+
+</html>

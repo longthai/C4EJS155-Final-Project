@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/cart.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link>
+</head>
+<body>
+    <!-- This is the header -->
+    <script src="./components/header.js"></script> 
+
+    <div class="cart">
+        <div>Home / Cart</div>
+
+        <div class="main-cart">
+            <div class="cart-title">
+                <div>Product</div>
+                <div>Price</div>
+                <div>Quantity</div>
+                <div>Subtotal</div>
+            </div>
+    
+            <div class="cart-product" style="display: none;">
+                <div class="product-info">
+                    <img src="./images/cart/item1.png" alt="">
+                    <div><a href="./productpage.html">HAVIT HV-G92 Gamepad</a></div>
+                </div>
+    
+                <div class="product-price"> 
+                    $120
+                </div>
+    
+                <div class="product-quantity">
+                    <button class="plus-btn" type="button" id="plus-btn">
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+                    <input type="text" name="name" value="1"id="item-count">
+                    <button class="minus-btn" type="button" id="minus-btn">
+                        <i class="fa-solid fa-minus"></i>
+                    </button>
+                </div>
+    
+                <div class="product-subtotal">
+                    <p class="price"></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="cart-button">
+            <button type="button">Return to shop</button>
+            <button type="button" id="empty-cart">Empty Cart</button>
+        </div>
+
+        <div class="cart-bottom"> 
+            <div class="cart-coupon">
+                <input type="text" placeholder="Coupon Code">
+                <button type="button"> Apply</button>
+            </div>
+
+            <div class="cart-checkout">
+                <p>Cart Total</p>
+                <div>
+                    <p >Subtotal:</p>
+                    <p class="price"></p>
+                </div>
+                <div>
+                    <p>Shipping:</p>
+                    <p>Free</p>
+                </div>
+                <div>
+                    <p>Total:</p>
+                    <p class="price"></p>
+                </div>
+                <button type="button" id="checkout-btn">Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    
+
+    </div>
+    
+    <!-- This is the footer -->
+    <script src="./components/footer.js"></script>
+</body>
+
+<script src="./components/cart.js"></script>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/signup.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body>
+    <!-- This is the header -->
+    <script src="./components/header.js"></script>
+
+    <div class="main">
+      <div class="banner-left"></div>
+
+      <div class="banner-right" id="banner-right">
+        <form action="" id="signup-form">
+          <div class="signup-header">
+            <h1>Create an account</h1>
+            <p>Enter your details below</p>
+          </div>
+
+          <div class="signup-container">
+            <input type="text" placeholder="Name" id="su-name">
+            <input type="email" placeholder="Email or Phone Number" id="su-email" >
+            <input type="password" placeholder="Password" id="su-pwd">
+            
+            <div class="signup-btn">
+              <button type="submit" class="btn-signup-submit" id="btn-signup-submit" required>Create Account</button>
+              <button type="button" class="btn-google"><i class="fa-brands fa-google" required></i> Sign up with Google</button>
+              <p>Already have account? <a href="login.html" id="btn-login-switch" required>Log In</a></p>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- This is the footer -->  
+    <script src="./components/footer.js"></script>
+    
+</body>
+<script src="./components/signup.js"></script>
+</html>
